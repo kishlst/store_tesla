@@ -1,0 +1,77 @@
+/* author: https://codepen.io/Yakudoo/pen/poqazQo
+Karim Maaloul */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  outline: none;
+  background-color: #000000;
+  cursor: move;
+  /* fallback if grab cursor is unsupported */
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+
+.button {
+  color: white;
+}
+
+#credits {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  bottom: 0;
+  margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #544027;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#credits a {
+  color: #7beeff;
+}
+
+#credits a:hover {
+  color: #ff3434;
+}
+
+#instructions {
+  margin-left: 0px;
+  position: absolute;
+  background: rgb(251,251,251); 
+  background: linear-gradient(90deg, rgba(251,251,251,1) 0%, rgba(211,211,211,1) 4%, rgba(255,255,255,1) 24%, rgba(255,255,255,1) 25%, rgba(212,138,138,1) 50%, rgba(255,255,255,1) 94%, rgba(255,255,255,1) 100%);
+  width: 100%;
+  margin: auto;
+  bottom: 60px;
+  font-family: "Open Sans", sans-serif;
+  color: #14b0cc;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 33px;
+  padding: 35px;
+}
+
+#instructions:hover {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  bottom: 60px;
+  font-family: "Open Sans", sans-serif;
+  color: #ff0800;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.KISHKOVAR {
+  text-decoration: none;
+  letter-spacing: 3px;
+  color: white;
+}
